@@ -7,22 +7,22 @@ class Whiskey < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/sxijyoti/whiskey/releases/download/v0.1.2/whiskey_0.1.2_darwin_amd64.tar.gz"
-      sha256 "32bc689ae712eb751ab99c736d284d983e96692f699c60b14f3f769a9a41eb6c"
+      sha256 "bfa1f36d63f3900bdfc6c308a0677d0dc9b6aa7707054eb5cb2368b183e89736"
     end
     if Hardware::CPU.arm?
       url "https://github.com/sxijyoti/whiskey/releases/download/v0.1.2/whiskey_0.1.2_darwin_arm64.tar.gz"
-      sha256 "6f36b67c5e938c891e15320c467911d066f99998c0eae25e67fcdf98a4c3fd56"
+      sha256 "0639ee801d1c4cf2ee16695cfa3f6be3edac914c96338ad7ebdec32df3968ff8"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/sxijyoti/whiskey/releases/download/v0.1.2/whiskey_0.1.2_linux_amd64.tar.gz"
-      sha256 "2bb092e31c02ad37b7616be104488c5be21d50f5d196e77d4fb9ab6641b0e5f2"
+      sha256 "af902fb83919639dc2a7a8734014dbf9f3e4651ad14cced6ba6d95b1d18896cf"
     end
     if Hardware::CPU.arm?
       url "https://github.com/sxijyoti/whiskey/releases/download/v0.1.2/whiskey_0.1.2_linux_arm64.tar.gz"
-      sha256 "6ea0b111f2902eb64fb7d8d83076081c27cd96f885148861a9fee2819672729f"
+      sha256 "8ee4bc349d41e8d70d2817724c94eff8a03312de1d0067725e1d979789f97574"
     end
   end
 
